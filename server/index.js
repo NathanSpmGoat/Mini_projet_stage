@@ -50,7 +50,7 @@ app.get('/', (req, res) => {
     res.send('Bienvenue sur l’API Node.js');
 });
 
-// ✅ Lancement du serveur
+// Lancement du serveur
 app.listen(3001, () => {
     console.log('Serveur Node.js lancé sur http://localhost:3001');
 });
